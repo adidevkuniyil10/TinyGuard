@@ -1,0 +1,43 @@
+{
+    "features": [
+        "ping_success",
+        "latency_ms",
+        "cpu_percent",
+        "memory_percent",
+        "upload_bytes_per_sec",
+        "download_bytes_per_sec"
+    ],
+    "classes": [
+        "Normal",
+        "High Latency",
+        "Connection Loss"
+    ],
+    "medians": [
+        1.0,
+        43.0,
+        5.800000190734863,
+        68.4000015258789,
+        357.6700134277344,
+        34539.2109375
+    ],
+    "scaler_mean": [
+        0.8910890817642212,
+        115.80528259277344,
+        8.92904281616211,
+        70.05610656738281,
+        4494.89111328125,
+        54130.82421875
+    ],
+    "scaler_scale": [
+        0.3115273714065552,
+        169.0602569580078,
+        8.783186912536621,
+        2.994431257247925,
+        16741.63671875,
+        137581.1875
+    ],
+    "input_scale": 0.059598300606012344,
+    "input_zero_point": -80,
+    "output_scale": 0.00390625,
+    "output_zero_point": -128
+}

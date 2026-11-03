@@ -1,0 +1,28 @@
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# PlatformIO build files
+.pio/
+.vscode/
+
+# Python cache
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+
+# Environment secrets
+.env
+.env.*
+
+# Keep the example environment file if present
+!.env.example

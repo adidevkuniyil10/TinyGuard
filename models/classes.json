@@ -1,0 +1,15 @@
+{
+    "features": [
+        "ping_success",
+        "latency_ms",
+        "cpu_percent",
+        "memory_percent",
+        "upload_bytes_per_sec",
+        "download_bytes_per_sec"
+    ],
+    "classes": [
+        "Normal",
+        "High Latency",
+        "Connection Loss"
+    ]
+}
